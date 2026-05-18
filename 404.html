@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Page Not Found — Manu R</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="/style.css"/>
+<style>
+.not-found {
+  min-height: calc(100vh - 65px);
+  display: flex; align-items: center; justify-content: center;
+  text-align: center; padding: 64px 28px;
+}
+.not-found-inner { max-width: 480px; }
+.not-found-num {
+  font-size: 7rem; font-weight: 800; letter-spacing: -.06em;
+  color: var(--border-strong); line-height: 1; margin-bottom: 24px;
+}
+.not-found h1 { font-size: 1.8rem; margin-bottom: 14px; letter-spacing: -.04em; }
+.not-found p { color: var(--muted); line-height: 1.7; margin-bottom: 32px; }
+.not-found-links { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a href="/" class="logo">
+      <span class="logo-mark">MR</span>
+      <span class="logo-text">Manu R<small>Digital Marketing Analyst</small></span>
+    </a>
+    <div class="nav-links">
+      <a href="/#projects">Projects</a>
+      <a href="/#contact">Contact</a>
+    </div>
+    <a href="mailto:manu.nayyar.r@gmail.com" class="nav-cta">Available to Hire</a>
+  </div>
+</nav>
+<div class="not-found">
+  <div class="not-found-inner">
+    <div class="not-found-num">404</div>
+    <h1>This page doesn't exist.</h1>
+    <p>Looks like this URL got a manual penalty. Let's get you back to somewhere that ranks.</p>
+    <div class="not-found-links">
+      <a href="/" class="btn btn-primary">Back to Home</a>
+      <a href="/#projects" class="btn btn-secondary">View Projects</a>
+    </div>
+  </div>
+</div>
+<script src="/script.js"></script>
+</body>
+</html>
